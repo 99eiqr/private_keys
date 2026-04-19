@@ -7,7 +7,7 @@
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/99eiqr/vendor_private-keys.git vendor/private/keys
+git clone git@github.com:99eiqr/private_keys.git vendor/private/keys
 ```
 
 ### Include in Your Device Makefile
