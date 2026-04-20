@@ -26,3 +26,6 @@ for key in $(grep -o ':.*override' keys.mk | sort -u); do
     ./make_key.sh ${key:1} 4096
 done
 
+# Make a releasekey
+ln -sf testkey.pk8 releasekey.pk8
+ln -sf testkey.x509.pem releasekey.x509.pem
