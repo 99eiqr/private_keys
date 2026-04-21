@@ -4,10 +4,12 @@
 
 ---
 
-### Clone the Repository
+### How?
 
 ```bash
 git clone git@github.com:99eiqr/private_keys.git vendor/private/keys
+cd vendor/private/keys
+./keys.sh
 ```
 
 ### Include in Your Device Makefile
